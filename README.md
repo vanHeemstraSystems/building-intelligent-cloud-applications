@@ -21,6 +21,12 @@ Now create a new resource by in the panel left, click "Create a resource".
 
 Then in the list of resources that opens, select Function App: Create.
 
+For Subscription choose: Pay-As-You-Go
+
+For Resource Group create a new resource group and name it: python-faas
+
+For Function App Name use: python-faas
+
 More ...
 
 
