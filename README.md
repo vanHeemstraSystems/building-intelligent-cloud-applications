@@ -19,5 +19,9 @@ Browse to https://portal.azure.com/#home for the Azure Dashboard.
 
 Now create a new resource by in the panel left, click "Create a resource".
 
+Then in the list of resources that opens, select Function Apps.
+
+More ...
+
 
 ## 400  - Conclusion
