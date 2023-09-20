@@ -15,7 +15,7 @@ This repository documents and stores files that are part of the content of the b
 
 ### 100 - Azure Dashboard
 
-Browse to https://portal.azure.com/#home for the Azure Dashboard.
+See [README.md](./100/README.md)
 
 ### 200 - Create a Resource: Function App
 
