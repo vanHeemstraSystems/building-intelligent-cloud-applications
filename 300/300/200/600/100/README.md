@@ -38,4 +38,4 @@ vscode:
 
 .gitpod.yml
 
-More...
+**WARNING**: Functions doesn't currently support Python function development on ARM64 devices. To develop Python functions on a Mac with an M1 chip, you must run in an emulated x86 environment. To learn more, see [x86 emulation on ARM64](https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local#x86-emulation-on-arm64).
