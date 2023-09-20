@@ -13,12 +13,8 @@ This repository documents and stores files that are part of the content of the b
 
 ## 300 - Building Our Application
 
-### 100 - Azure Dashboard
-
-See [README.md](./100/README.md)
-
-### 200 - Create a Resource: Function App
-
-See [README.md](./200/README.md)
+See [README.md](./300/README.md)
 
 ## 400  - Conclusion
+
+See [README.md](./400/README.md)
