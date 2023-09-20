@@ -165,8 +165,8 @@ Function App by Microsoft
 |Runtime stack|Python 3.10|
 |Tags|project: python-faas|
 
-|Hosting||
-|--|--|
+|Hosting|
+|--|
 
 |Storage (New)||
 |--|--|
