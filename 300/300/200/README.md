@@ -1,3 +1,5 @@
 # 200 - Create a Function in Visual Studio Code Desktop
 
-Do To, See https://portal.azure.com/#@wvanheemstraicloud.onmicrosoft.com/resource/subscriptions/b94dca1d-3277-4aa8-b826-1b4324072838/resourcegroups/python-faas/providers/Microsoft.Web/sites/python-faas/appServices
+See https://learn.microsoft.com/en-us/azure/azure-functions/functions-develop-vs-code?tabs=node-v3%2Cpython-v2%2Cin-process&pivots=programming-language-python
+
+
