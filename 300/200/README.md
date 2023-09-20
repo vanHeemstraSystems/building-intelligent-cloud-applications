@@ -483,3 +483,19 @@ parameters.json
 template.json
 
 Do not forget to finally click the button **Create** !!!
+
+After a few minutes you will be informed as follows:
+
+Your deployment is complete
+
+Deployment name: **Microsoft.Web-FunctionApp-Portal-8cd41e9e-893a**
+
+Subscription: **Pay-As-You-Go**
+
+Resource group: **python-faas**
+
+Start time: **9/20/2023, 11:13:48 AM**
+
+Correlation ID: **12296f74-d2d2-40bf-ac15-982710609732**
+
+You can now go to the resource at https://portal.azure.com/#@wvanheemstraicloud.onmicrosoft.com/resource/subscriptions/b94dca1d-3277-4aa8-b826-1b4324072838/resourcegroups/python-faas/providers/Microsoft.Web/sites/python-faas/appServices
