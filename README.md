@@ -54,6 +54,27 @@ Choose **Next:Monitoring >**
 
 |Setting|Value|
 |--|--|
+|Enable Application Insights|Yes|
+|Application Insights|python-faas (West Europe)|
+|Region|West Europe|
+
+Choose **Next:Deployment >**
+
+|Setting|Value|
+|--|--|
+|GitHub Actions Settings|Enable|
+|GitHub Account|Authorize -> Follow this instruction|
+|Organization||
+|Repository||
+|Branch||
+
+Workflow Configuration:
+
+```
+...
+```
+
+Choose **Next:Tags >**
 
 
 ## 400  - Conclusion
