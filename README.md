@@ -167,11 +167,11 @@ Function App by Microsoft
 
 |Hosting||
 |--|--|
-Storage (New)
-Storage account
-pythonfaasbc70
-Tags
-project: python-faas
+
+|Storage (New)||
+|--|--|
+|Storage account|pythonfaasbc70|
+|Tags|project: python-faas|
 
 |Plan (New)||
 |--|--|
