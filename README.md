@@ -153,6 +153,54 @@ Choose **Next:Tags >**
 
 Choose **Next:Review + Create >**
 
-More ...
+### Summary
+
+Function App by Microsoft
+
+|Details||
+|--|--|
+|Subscription|b94dca1d-3277-4aa8-b826-1b4324072838|
+|Resource Group|python-faas|
+|Name|python-faas|
+|Runtime stack|Python 3.10|
+|Tags|project: python-faas|
+
+|Hosting||
+|--|--|
+Storage (New)
+Storage account
+pythonfaasbc70
+Tags
+project: python-faas
+
+|Plan (New)||
+|--|--|
+|Hosting options and plans|Consumption (Serverless)|
+|Name|ASP-pythonfaas-9263|
+|Operating System|Linux|
+|Region|West Europe|
+|SKU|Dynamic|
+|Tags|project: python-faas|
+
+|Monitoring (New)||
+|--|--|
+|Application Insights|Enabled|
+|Name|python-faas|
+|Region|West Europe|
+|Tags|project: python-faas|
+
+|Deployment||
+|--|--|
+|Continuous deployment|Enabled|
+|GitHub account|wvanheemstra|
+|Organization|vanHeemstraSystems|
+|Repository|building-intelligent-cloud-applications|
+|Branch|main|
+
+Template for automation:
+
+```
+...
+```
 
 ## 400  - Conclusion
