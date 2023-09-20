@@ -25,7 +25,7 @@ For Subscription choose: Pay-As-You-Go
 
 For Resource Group create a new resource group with the following settings:
 
-||Setting||Value||
+|Setting|Value|
 |--|--|
 |Subscription|Pay-As-You-Go|
 
