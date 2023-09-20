@@ -499,4 +499,6 @@ parameters.json
 ```
 template.json
 
+Do not forget to finally click the button **Create** !!!
+
 ## 400  - Conclusion
