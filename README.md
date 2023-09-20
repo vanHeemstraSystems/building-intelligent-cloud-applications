@@ -5,7 +5,7 @@ Based on the book "Building Intelligent Cloud Applications" by O'Reilly
 
 ## 100 - Introduction
 
-This repository documents and stores files that are part of the content of the book "Building Intelligent Cloud Applications".
+See [README.md](./100/README.md)
 
 ## 200 - Requirements
 
