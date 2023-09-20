@@ -147,5 +147,12 @@ jobs:
 
 Choose **Next:Tags >**
 
+|Name|Value|Resource|
+|--|--|--|
+|project|python-faas|5 selected|
+
+Choose **Next:Review + Create >**
+
+More ...
 
 ## 400  - Conclusion
