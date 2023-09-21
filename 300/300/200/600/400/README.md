@@ -2,6 +2,8 @@
 
 Following instructions at https://learn.microsoft.com/en-us/azure/azure-functions/functions-develop-vs-code?tabs=node-v3%2Cpython-v2%2Cin-process&pivots=programming-language-python
 
+**Note**: In order to Deploy Project Files, you first need to have created an Azure Functions Project. See building-intelligent-cloud-applications/300/300/200/600/200/README.md.
+
 We recommend setting-up [continuous deployment](https://learn.microsoft.com/en-us/azure/azure-functions/functions-continuous-deployment) so that your function app in Azure is updated when you update source files in the connected source location. You can also deploy your project files from Visual Studio Code.
 
 When you publish from Visual Studio Code, you take advantage of the [Zip deploy](https://learn.microsoft.com/en-us/azure/azure-functions/functions-deployment-technologies#zip-deploy) technology.
