@@ -4,3 +4,4 @@ vscode:
     - ms-azuretools.vscode-azurefunctions
     - ms-vscode.azure-account
     - ms-python.python
+    - ms-azuretools.vscode-azureresourcegroups
