@@ -8,5 +8,10 @@ When you publish from Visual Studio Code, you take advantage of the [Zip deploy]
 
 **WARNING**: Deploying to an existing function app always overwrites the contents of that app in Azure.
 
+1. Choose the Azure icon in the Activity bar, then in the **Workspace** area, select your project folder and select the **Deploy...** button.
+
+**Note**: When working from GitPod, your project won't show in the Workspace area. TO DO: Find out how to solve this ...
+
+
 
 More ...
