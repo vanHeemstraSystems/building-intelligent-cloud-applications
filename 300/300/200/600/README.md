@@ -8,12 +8,16 @@ See https://learn.microsoft.com/en-us/azure/azure-functions/functions-develop-vs
 
 See [README.md](./100/README.md)
 
-## 200 - Create an Azure Functions project
+## 200 - Create an Azure Functions Project
 
 See [README.md](./200/README.md)
 
 ## 300 - Get the URL of an HTTP triggered function in Azure
 
 See [README.md](./300/README.md)
+
+## 400 - Deploy Project Files
+
+See [README.md](./400/README.md)
 
 More ...
