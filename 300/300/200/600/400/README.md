@@ -10,7 +10,7 @@ When you publish from Visual Studio Code, you take advantage of the [Zip deploy]
 
 1. Choose the Azure icon in the Activity bar, then in the **Workspace** area, select your project folder and select the **Deploy...** button.
 
-**Note**: When working from GitPod, your project won't show in the Workspace area. TO DO: Find out how to solve this ...
+**Note**: When working from GitPod, your project won't show in the Workspace area. As a work-around you can just click the Azure Function icon (lighting) which will provide you with the option to ```Deploy to function App```. It will give you a dropdown list to select your folder to deploy, which includes the root directory of your GitPod workspace. Choose that one to start the deployment.
 
 
 
