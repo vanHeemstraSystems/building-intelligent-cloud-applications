@@ -10,7 +10,7 @@ When you publish from Visual Studio Code, you take advantage of the [Zip deploy]
 
 **WARNING**: Deploying to an existing function app always overwrites the contents of that app in Azure.
 
-1. Choose the Azure icon in the Activity bar, then in the **Workspace** area, select your project folder and select the **Deploy...** button.
+1. Choose the Azure icon in the Activity bar, then in the **Workspace** area, select your project folder and select the **Azure Function** button (lightning).
 
 **Note**: When working from GitPod, and no Function Project shows in the Workspace area, you most likely did not create a Function Project yet. Go back to previous instructions and create a Function Project first. It will then show in your Workspace.
 
