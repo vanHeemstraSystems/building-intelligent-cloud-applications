@@ -14,6 +14,8 @@ When you publish from Visual Studio Code, you take advantage of the [Zip deploy]
 
 **Note**: When working from GitPod, and no Function Project shows in the Workspace area, you most likely did not create a Function Project yet. Go back to previous instructions and create a Function Project first. It will then show in your Workspace.
 
+**Note**: The first time your local project is created, under the ```Functions``` subdirectory no functions may yet be listed even though you created a function. The advice is to start debugging your functions, which will cause your functions to start showing up in the workspace (e.g. HttpExample).
+
 2. Select **Deploy to Function App...**, choose the function app you just created, and select **Deploy**.
 
 3. After deployment completes, select **View Output** to view the creation and deployment results, including the Azure resources that you created. If you miss the notification, select the bell icon in the lower right corner to see it again.
