@@ -1,19 +1,13 @@
-# 400 - Deploy Project Files
+# 400 - Get the URL of an HTTP triggered function in Azure
 
-Following instructions at https://learn.microsoft.com/en-us/azure/azure-functions/functions-develop-vs-code?tabs=node-v3%2Cpython-v2%2Cin-process&pivots=programming-language-python
+Following the instructions at https://learn.microsoft.com/en-us/azure/azure-functions/functions-develop-vs-code?tabs=node-v3%2Cpython-v2%2Cin-process&pivots=programming-language-python
 
-**Note**: In order to Deploy Project Files, you first need to have created an Azure Functions Project. See building-intelligent-cloud-applications/300/300/200/600/200/README.md.
+To call an HTTP-triggered function from a client, you need the URL of the function when it's deployed to your function app. This URL includes any required function keys. You can use the extension to get these URLs for your deployed functions. If you just want to run the remote function in Azure, [use the Execute function now](https://learn.microsoft.com/en-us/azure/azure-functions/functions-develop-vs-code?tabs=node-v3%2Cpython-v2%2Cin-process&pivots=programming-language-python#run-functions-in-azure) functionality of the extension.
 
-We recommend setting-up [continuous deployment](https://learn.microsoft.com/en-us/azure/azure-functions/functions-continuous-deployment) so that your function app in Azure is updated when you update source files in the connected source location. You can also deploy your project files from Visual Studio Code.
+1. Select F1 to open the command palette, and then search for and run the command **Azure Functions: Copy Function URL**.
 
-When you publish from Visual Studio Code, you take advantage of the [Zip deploy](https://learn.microsoft.com/en-us/azure/azure-functions/functions-deployment-technologies#zip-deploy) technology.
+2. Follow the prompts to select your function app in Azure and then the specific HTTP trigger that you want to invoke.
 
-**WARNING**: Deploying to an existing function app always overwrites the contents of that app in Azure.
+The function URL is copied to the clipboard, along with any required keys passed by the ```code`````` query parameter. Use an HTTP tool to submit POST requests, or a browser for GET requests to the remote function.
 
-1. Choose the Azure icon in the Activity bar, then in the **Workspace** area, select your project folder and select the **Azure Function** button (lightning).
-
-**Note**: When working from GitPod, and no Function Project shows in the Workspace area, you most likely did not create a Function Project yet. Go back to previous instructions and create a Function Project first. It will then show in your Workspace.
-
-2. Select **Deploy to Function App...**, choose the function app you just created, and select **Deploy**.
-
-3. After deployment completes, select **View Output** to view the creation and deployment results, including the Azure resources that you created. If you miss the notification, select the bell icon in the lower right corner to see it again.
+When the extension gets the URL of functions in Azure, it uses your Azure account to automatically retrieve the keys it needs to start the function. [Learn more about function access keys](https://learn.microsoft.com/en-us/azure/azure-functions/security-concepts#function-access-keys). Starting non-HTTP triggered functions requires using the admin key.

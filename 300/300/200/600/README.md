@@ -12,12 +12,16 @@ See [README.md](./100/README.md)
 
 See [README.md](./200/README.md)
 
-## 300 - Get the URL of an HTTP triggered function in Azure
+## 300 - Add a Function to your Project
 
 See [README.md](./300/README.md)
 
-## 400 - Deploy Project Files
+## 400 - Get the URL of an HTTP triggered function in Azure
 
 See [README.md](./400/README.md)
+
+## 500 - Deploy Project Files
+
+See [README.md](./500/README.md)
 
 More ...

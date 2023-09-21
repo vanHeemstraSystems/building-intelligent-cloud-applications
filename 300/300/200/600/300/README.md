@@ -1,13 +1,9 @@
-# 300 - Get the URL of an HTTP triggered function in Azure
+# 300 - Add a Function to your Project
 
 Following the instructions at https://learn.microsoft.com/en-us/azure/azure-functions/functions-develop-vs-code?tabs=node-v3%2Cpython-v2%2Cin-process&pivots=programming-language-python
 
-To call an HTTP-triggered function from a client, you need the URL of the function when it's deployed to your function app. This URL includes any required function keys. You can use the extension to get these URLs for your deployed functions. If you just want to run the remote function in Azure, [use the Execute function now](https://learn.microsoft.com/en-us/azure/azure-functions/functions-develop-vs-code?tabs=node-v3%2Cpython-v2%2Cin-process&pivots=programming-language-python#run-functions-in-azure) functionality of the extension.
+You can add a new function to an existing project by using one of the predefined Functions trigger templates. To add a new function trigger, select F1 to open the command palette, and then search for and run the command **Azure Functions: Create Function**. Follow the prompts to choose your trigger type and define the required attributes of the trigger. If your trigger requires an access key or connection string to connect to a service, get it ready before you create the function trigger.
 
-1. Select F1 to open the command palette, and then search for and run the command **Azure Functions: Copy Function URL**.
+The results of this action depend on the Python model version. We choose v2:
 
-2. Follow the prompts to select your function app in Azure and then the specific HTTP trigger that you want to invoke.
-
-The function URL is copied to the clipboard, along with any required keys passed by the ```code`````` query parameter. Use an HTTP tool to submit POST requests, or a browser for GET requests to the remote function.
-
-When the extension gets the URL of functions in Azure, it uses your Azure account to automatically retrieve the keys it needs to start the function. [Learn more about function access keys](https://learn.microsoft.com/en-us/azure/azure-functions/security-concepts#function-access-keys). Starting non-HTTP triggered functions requires using the admin key.
+New function code is added either to the **function_app.py** file (the default behavior) or to another Python file you selected.
